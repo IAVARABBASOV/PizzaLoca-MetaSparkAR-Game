@@ -1,0 +1,26 @@
+//==============================================================================
+// Welcome to shader authoring in Meta Spark Studio!
+//==============================================================================
+
+#import <sdf>
+
+
+// Entry point of the shader code asset
+//
+// @param[default=empty] _texture
+// @param[default=0] _time
+// @param[0.5] _directionX
+// @param[0.5] _directionY
+// @param[0.05] _speed
+// @return color
+vec4 main(optional<std::Texture2d> _texture ,float _time, float _directionX, float _directionY, float _speed) {
+  
+   vec2 uv = fragment(std::getVertexTexCoord());
+
+   float offsetX = (_time * _directionX) * _speed; // Adjust 0.5 for speed and 0.05 for offset range
+   float offsetY = (_time * _directionY) * _speed; // Adjust 0.5 for speed and 0.05 for offset range
+
+   vec2 newUV = uv + vec2(offsetX, offsetY);
+    
+   return _texture.sample(newUV).valueOr(vec4(0.1));
+}

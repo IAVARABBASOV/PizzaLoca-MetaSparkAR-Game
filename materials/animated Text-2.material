@@ -1,0 +1,68 @@
+{
+  "modelName": "shader_code_asset_material_model",
+  "name": "animated Text",
+  "identifier": "shader_code_asset_material_model:606561-ffebd1fa-7b83-41ce-808b-4ca86302b002",
+  "alphaTestEnabled": false,
+  "alphaTestThreshold": 0,
+  "blendMode": "alpha",
+  "cullMode": "front",
+  "diffuseFactor": "0xffffffff",
+  "diffuseTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "doubleSided": true,
+  "fragmentOutputCount": 1,
+  "importIssues": {},
+  "isDiffuseTextureIdentifierEnabled": false,
+  "readDepth": false,
+  "shader": "shader_interface_model:606543-ffebd1fa-7b83-41ce-808b-4ca86302b002",
+  "transparency": 1,
+  "writeDepth": false,
+  "writesToColorBufferAlpha": true,
+  "writesToColorBufferBlue": true,
+  "writesToColorBufferGreen": true,
+  "writesToColorBufferRed": true,
+  "children": [
+    {
+      "modelName": "composed_material_parameters_model",
+      "identifier": "composed_material_parameters_model:606563-ffebd1fa-7b83-41ce-808b-4ca86302b002",
+      "children": [
+        {
+          "modelName": "composed_material_parameter_model",
+          "name": "backgroundColor",
+          "identifier": "composed_material_parameter_model:14263-7d9a764a-d8f5-4522-9ad5-dd146d3ae7ac",
+          "hasTextureParameters": false,
+          "isTextureIdentifierEnabled": false,
+          "rawValue": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "textureFilter": "bilinear",
+          "textureWrapModeU": "repeat",
+          "textureWrapModeV": "repeat",
+          "type": "color"
+        },
+        {
+          "modelName": "composed_material_parameter_model",
+          "name": "time",
+          "identifier": "composed_material_parameter_model:608345-ffebd1fa-7b83-41ce-808b-4ca86302b002",
+          "hasTextureParameters": false,
+          "isTextureIdentifierEnabled": false,
+          "rawValue": [
+            5
+          ],
+          "textureFilter": "bilinear",
+          "textureWrapModeU": "repeat",
+          "textureWrapModeV": "repeat",
+          "type": "float"
+        }
+      ]
+    }
+  ]
+}

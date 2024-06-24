@@ -1,0 +1,40 @@
+{
+  "modelName": "texture",
+  "name": "Pizza Box",
+  "identifier": "texture:6292-f9ca42a7-753b-45c3-bcd5-9ce455ec1cb4",
+  "alphaPremultiplicationMode": "none",
+  "assetDataHash": "8b23a5dbc52a93787bda9803c6172d0b",
+  "assetLocator": "textures/Pizza Box.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:6400-f9ca42a7-753b-45c3-bcd5-9ce455ec1cb4",
+    "textureExportConfig:6510-f9ca42a7-753b-45c3-bcd5-9ce455ec1cb4",
+    "textureExportConfig:6622-f9ca42a7-753b-45c3-bcd5-9ce455ec1cb4"
+  ],
+  "filter": "nearest",
+  "hasOfflineMipmaps": false,
+  "height": 802,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 937,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "assetDataHash": "8b23a5dbc52a93787bda9803c6172d0b",
+      "colorCount": 73901,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 10.990258931895367,
+      "pixelsHigh": 765,
+      "pixelsWide": 882
+    }
+  ]
+}

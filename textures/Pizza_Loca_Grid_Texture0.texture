@@ -1,0 +1,40 @@
+{
+  "modelName": "texture",
+  "name": "Pizza_Loca_Grid_Texture0",
+  "identifier": "texture:6708-74e843b8-ac21-4019-a3dd-f4168ddbbdf2",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "4cc8c4ed06a104f0cca5b84763e075ab",
+  "assetLocator": "textures/Pizza_Loca_Grid_Texture.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:7162-74e843b8-ac21-4019-a3dd-f4168ddbbdf2",
+    "textureExportConfig:7586-74e843b8-ac21-4019-a3dd-f4168ddbbdf2"
+  ],
+  "filter": "trilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "repeat",
+  "vWrapMode": "repeat",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "4cc8c4ed06a104f0cca5b84763e075ab",
+      "colorCount": 3424,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 2.5416705667740107,
+      "pixelsHigh": 1024,
+      "pixelsWide": 1024
+    }
+  ]
+}

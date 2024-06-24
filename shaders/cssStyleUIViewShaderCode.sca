@@ -1,0 +1,14 @@
+// @param[default=#FFFFFFFF] backgroundColor Background Color
+// @param[default=#000000FF] borderColor Border Color
+// @param[default=1.0] borderWidth Border Width(unit: pixel)
+// @param[default=vec4(5.0, 5.0, 5.0, 5.0)] borderRadius Border Radius(unit: pixel)
+// @return patch output
+vec4 main(vec4 backgroundColor,
+          float time) { // Added time parameter
+  
+  // Animate the alpha channel
+  float animatedAlpha = sin(time); // Alpha oscillates between 0 and 1
+  vec4 animatedLayerColor = vec4(backgroundColor.rgb, animatedAlpha);
+
+  return animatedLayerColor;
+}

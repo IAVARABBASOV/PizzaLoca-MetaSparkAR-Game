@@ -1,0 +1,105 @@
+{
+  "modelName": "shader_code_asset_material_model",
+  "name": "pizzaLocaLogo_BG",
+  "identifier": "shader_code_asset_material_model:89817-40f840c7-5590-4c2a-825b-bb54260f6435",
+  "alphaTestEnabled": false,
+  "alphaTestThreshold": 0,
+  "blendMode": "alpha",
+  "cullMode": "back",
+  "diffuseFactor": "0xffffffff",
+  "diffuseTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "doubleSided": false,
+  "fragmentOutputCount": 1,
+  "importIssues": {},
+  "isDiffuseTextureIdentifierEnabled": false,
+  "readDepth": true,
+  "shader": "shader_interface_model:67261-40f840c7-5590-4c2a-825b-bb54260f6435",
+  "transparency": 0.9999999999999993,
+  "writeDepth": false,
+  "writesToColorBufferAlpha": true,
+  "writesToColorBufferBlue": true,
+  "writesToColorBufferGreen": true,
+  "writesToColorBufferRed": true,
+  "children": [
+    {
+      "modelName": "composed_material_parameters_model",
+      "identifier": "composed_material_parameters_model:89819-40f840c7-5590-4c2a-825b-bb54260f6435",
+      "children": [
+        {
+          "modelName": "composed_material_parameter_model",
+          "name": "_texture",
+          "identifier": "composed_material_parameter_model:89821-40f840c7-5590-4c2a-825b-bb54260f6435",
+          "hasTextureParameters": false,
+          "isTextureIdentifierEnabled": false,
+          "textureFilter": "bilinear",
+          "textureIdentifier": "texture:6708-74e843b8-ac21-4019-a3dd-f4168ddbbdf2",
+          "textureWrapModeU": "repeat",
+          "textureWrapModeV": "repeat",
+          "type": "texture"
+        },
+        {
+          "modelName": "composed_material_parameter_model",
+          "name": "_time",
+          "identifier": "composed_material_parameter_model:89823-40f840c7-5590-4c2a-825b-bb54260f6435",
+          "hasTextureParameters": false,
+          "isTextureIdentifierEnabled": false,
+          "rawValue": [
+            0
+          ],
+          "textureFilter": "bilinear",
+          "textureWrapModeU": "repeat",
+          "textureWrapModeV": "repeat",
+          "type": "float"
+        },
+        {
+          "modelName": "composed_material_parameter_model",
+          "name": "_directionX",
+          "identifier": "composed_material_parameter_model:135359-40f840c7-5590-4c2a-825b-bb54260f6435",
+          "hasTextureParameters": false,
+          "isTextureIdentifierEnabled": false,
+          "rawValue": [
+            -0.5
+          ],
+          "textureFilter": "bilinear",
+          "textureWrapModeU": "repeat",
+          "textureWrapModeV": "repeat",
+          "type": "float"
+        },
+        {
+          "modelName": "composed_material_parameter_model",
+          "name": "_directionY",
+          "identifier": "composed_material_parameter_model:135361-40f840c7-5590-4c2a-825b-bb54260f6435",
+          "hasTextureParameters": false,
+          "isTextureIdentifierEnabled": false,
+          "rawValue": [
+            -0.5
+          ],
+          "textureFilter": "bilinear",
+          "textureWrapModeU": "repeat",
+          "textureWrapModeV": "repeat",
+          "type": "float"
+        },
+        {
+          "modelName": "composed_material_parameter_model",
+          "name": "_speed",
+          "identifier": "composed_material_parameter_model:135777-40f840c7-5590-4c2a-825b-bb54260f6435",
+          "hasTextureParameters": false,
+          "isTextureIdentifierEnabled": false,
+          "rawValue": [
+            0.05
+          ],
+          "textureFilter": "bilinear",
+          "textureWrapModeU": "repeat",
+          "textureWrapModeV": "repeat",
+          "type": "float"
+        }
+      ]
+    }
+  ]
+}

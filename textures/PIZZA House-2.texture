@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "PIZZA House",
+  "identifier": "texture:173067-1a728a1b-4c25-4e13-be81-8a93d6d0e3a9",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "80de5efb19a0021ff6b588be1b77d105",
+  "assetLocator": "textures/PIZZA House.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:552704-15ce92c3-2f9c-4614-9e86-7ba6ffd0cc0f",
+    "textureExportConfig:553660-15ce92c3-2f9c-4614-9e86-7ba6ffd0cc0f",
+    "textureExportConfig:554618-15ce92c3-2f9c-4614-9e86-7ba6ffd0cc0f"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 853,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 1007,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "80de5efb19a0021ff6b588be1b77d105",
+      "colorCount": 177301,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 13.94555919397657,
+      "pixelsHigh": 853,
+      "pixelsWide": 1007
+    }
+  ]
+}

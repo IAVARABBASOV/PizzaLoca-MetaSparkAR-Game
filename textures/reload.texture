@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "reload",
+  "identifier": "texture:29899-1a728a1b-4c25-4e13-be81-8a93d6d0e3a9",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "3486cc7ae86bddef7c9c336726bbea42",
+  "assetLocator": "textures/reload.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 300,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 300,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "3486cc7ae86bddef7c9c336726bbea42",
+      "colorCount": 255,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 1.2707127272644723,
+      "pixelsHigh": 300,
+      "pixelsWide": 300
+    }
+  ]
+}

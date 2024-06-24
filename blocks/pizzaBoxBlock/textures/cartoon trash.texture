@@ -1,0 +1,40 @@
+{
+  "modelName": "texture",
+  "name": "cartoon trash",
+  "identifier": "texture:5067-8b20bc46-fcac-4ff8-ba67-9be87ba190e2",
+  "alphaPremultiplicationMode": "none",
+  "assetDataHash": "b2250a9c6440fac0a7a729ae895c4e20",
+  "assetLocator": "textures/cartoon trash.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:5401-8b20bc46-fcac-4ff8-ba67-9be87ba190e2",
+    "textureExportConfig:5571-8b20bc46-fcac-4ff8-ba67-9be87ba190e2",
+    "textureExportConfig:5743-8b20bc46-fcac-4ff8-ba67-9be87ba190e2"
+  ],
+  "filter": "nearest",
+  "hasOfflineMipmaps": false,
+  "height": 878,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 649,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "assetDataHash": "b2250a9c6440fac0a7a729ae895c4e20",
+      "colorCount": 10998,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 7.749900249019459,
+      "pixelsHigh": 871,
+      "pixelsWide": 642
+    }
+  ]
+}
